@@ -1,18 +1,11 @@
 package com.rmsxo.disableswiping_viewpager
 
-import android.annotation.SuppressLint
-import android.graphics.Rect
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MotionEvent
-import androidx.recyclerview.widget.RecyclerView
-import androidx.viewpager.widget.ViewPager
+import androidx.appcompat.app.AppCompatActivity
 import com.rmsxo.disableswiping_viewpager.adapter.ViewPagerAdapter
 import com.rmsxo.disableswiping_viewpager.databinding.ActivityMainBinding
 import com.rmsxo.disableswiping_viewpager.fragment.ViewPagerFragment
-import com.rmsxo.disableswiping_viewpager.util.CustomViewPager
 import com.rmsxo.disableswiping_viewpager.util.OnRecyclerViewScrollListener
-import com.rmsxo.disableswiping_viewpager.util.RecyclerViewDisabler
 
 class MainActivity : AppCompatActivity(), OnRecyclerViewScrollListener {
 
